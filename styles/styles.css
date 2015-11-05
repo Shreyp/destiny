@@ -1,0 +1,10 @@
+body {
+	background-image: url(http://orig02.deviantart.net/e1c4/f/2014/298/2/a/destiny_logo_tricorn_vector_by_valencygraphics-d5yqbim.jpg);
+}
+
+h1 {
+	font-family: 'Michroma', sans-serif;
+	color: white;
+	z-index: 800;
+	border: 2px red solid;
+}
