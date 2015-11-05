@@ -1,10 +1,61 @@
 body {
-	background-image: url(http://orig02.deviantart.net/e1c4/f/2014/298/2/a/destiny_logo_tricorn_vector_by_valencygraphics-d5yqbim.jpg);
+	background-color: black;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.banner {
+	z-index: -800;
 }
 
 h1 {
-	font-family: 'Michroma', sans-serif;
-	color: white;
+	position: absolute;
 	z-index: 800;
+	top: 80px;
+	left: 800px;	
+}
+
+nav {
+	position: fixed;
+	z-index:800;
+	right:0;
+	top: 0;
+	padding-right: 10px;
 	border: 2px red solid;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+.class {
+	padding-bottom:;
+}
+
+.subclass {
+	width: 500px;
+	height: 800px;
+}
+
+.hunter {
+	position: absolute;
+	width: 500px;
+	top: 200px;
+	left: 0;
+}
+
+.titan {
+	position: static;
+	width: 500px;
+	margin-top:-125px;
+	margin-left: 700px;
+}
+
+.warlock {
+	position: static;   
+	width: 500px;   
+	margin-top:-810px;   
+	margin-left: 1380px;
 }
