@@ -7,13 +7,14 @@ body {
 
 .banner {
 	z-index: -8000;
+	width: 100%;
 }
 
 h1 {
 	position: relative;
 	font-size: 50px;
 	z-index: 800;
-	top: -300px;
+	top: -200px;
 	margin:auto;
 }
 
